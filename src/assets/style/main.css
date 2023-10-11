@@ -1,0 +1,125 @@
+:root {
+  --text-women: #720060;
+  --bg-women: #fde2ff;
+  --text-man: #002772;
+  --bg-man: #d6e6ff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  height: 300px;
+}
+.bg {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 30px;
+  width: 1034px;
+  height: 580px;
+  box-shadow: inset;
+}
+
+.image img {
+  width: 400px;
+  height: 407px;
+}
+
+.button {
+  position: absolute;
+  top: 75%;
+  left: 46%;
+}
+
+/* Class CSS untuk tombol Buy Now berdasarkan kategori */
+.button-men {
+  padding: 10px 100px;
+  margin-left: 10px;
+  background-color: #002772;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.button-men:hover {
+  padding: 10px 100px;
+  margin-left: 10px;
+  background-color: rgb(249, 249, 249);
+  color: #002772;
+  border: 1px solid #002772;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.button-women {
+  padding: 10px 100px;
+  margin-left: 10px;
+  background-color: var(--text-women);
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.button-women:hover {
+  padding: 10px 100px;
+  margin-left: 10px;
+  background-color: rgb(249, 249, 249);
+  color: #720060;
+  border: 1px solid #720060;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.button-default {
+  padding: 10px 100px;
+  margin-left: 10px;
+  background-color: gray; /* Ganti dengan warna yang diinginkan */
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* Class CSS untuk warna teks berdasarkan kategori */
+.text-men {
+  color: #002772; /* Ganti dengan warna teks yang diinginkan */
+}
+
+.text-women {
+  color: pink; /* Ganti dengan warna teks yang diinginkan */
+}
+
+.text-default {
+  color: black; /* Ganti dengan warna teks yang diinginkan */
+}
+
+.deskripsi {
+  margin-left: 70px;
+  width: 548px;
+  height: 484px;
+}
+
+.deskripsi h4,
+h1,
+p,
+.harga {
+  padding-top: 20px;
+}
+
+.category-men {
+  background-color: #002772; /* Ganti dengan warna yang diinginkan */
+}
+
+.category-women {
+  background-color: pink;
+}
+
+.category-default {
+  background-color: gray; /* Ganti dengan warna yang diinginkan */
+}
